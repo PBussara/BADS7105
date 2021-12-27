@@ -1,11 +1,13 @@
-# BADS7105 - Customer Relationship Management Analytics and Intelligence
+# BADS7105 - Customer Relationship Management 
 
 
 6220412013 Bussara Poungarsirapjt
 
 
 
-## Assignment 
+### Assignment 
+
+
 - [ ] 01 CLV Dashboarg
 
 - [ ] 02 Customer Segmentation
