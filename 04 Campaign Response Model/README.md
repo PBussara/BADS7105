@@ -21,4 +21,4 @@
      - By Response Feature we found that have imbalance. Thus we fix imbalanced only train data with SMOTE.
    
  
- ## Evaluate model
+ ## Model Selection
