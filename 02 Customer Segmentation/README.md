@@ -1,5 +1,5 @@
-# Customer Segmentation
-
+# Customers Segmentation
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1JBp6prBkEHkuhLXy3evg5pcJvHFXW6bt#scrollTo=S0MqcsQoLWZ3)
  ## Dataset 
  Supermarket data 
  
@@ -14,22 +14,22 @@
 ### Cluster customers
     
   We use pycaret to compare clustering model by Silhouette, Calinski-Harabasz score.
-![alt tag](https://github.com/PBussara/BADS7105/blob/main/01%20CLV%20Dashboard/Dashboard1.jpg)
+![alt tag](https://github.com/PBussara/BADS7105/blob/main/02%20Customer%20Segmentation/compare_clustering_models.jpg)
   
   K-means is model that we used to cluster customes.
   
   we set up number of group or k by distortion score elbow. k is 4 
   
-![alt tag](https://github.com/PBussara/BADS7105/blob/main/01%20CLV%20Dashboard/Dashboard1.jpg)
+![alt tag](https://github.com/PBussara/BADS7105/blob/main/02%20Customer%20Segmentation/distortion_score.jpg)
   Finally we clustered customers to 4 group and taken each group to analyze what are features that cluster them to each group by Decision Tree Classifier.  
-![alt tag](https://github.com/PBussara/BADS7105/blob/main/01%20CLV%20Dashboard/Dashboard1.jpg)
+![alt tag](https://github.com/PBussara/BADS7105/blob/main/02%20Customer%20Segmentation/K_means_pca.jpg)
   
 ### Decision tree
  We compared classication models by pycaret again. We choosed Decision Tree Classifier to found feature.
-![alt tag](https://github.com/PBussara/BADS7105/blob/main/01%20CLV%20Dashboard/Dashboard1.jpg)
+![alt tag](https://github.com/PBussara/BADS7105/blob/main/02%20Customer%20Segmentation/decisiontree_features.jpg)
  
  
- ## Customers analysis for clustering
+ ## Customers analysis
  
       Cluster0  (Know you): Low total spending, Lowest rencency and not often visited. 
       Recommend :
