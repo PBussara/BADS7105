@@ -36,16 +36,16 @@
           - Run analytic model to compare  cost vs revenue for offering promotions.
           - Churn prediction (Lead scoring)
  
-      cluster1 (please coming): total spending ,rencency and total visit is middle.
+      Cluster1 (please coming): total spending ,rencency and total visit is middle.
       Recommend :
           - Daily promotion speacial
           - Discounted speacial products, BOGO
           
-      cluster2 (My royal): Highest total spending, Highest Rencency, Lowest avg between visit 
+      Cluster2 (My royal): Highest total spending, Highest Rencency, Lowest avg between visit 
       recommend :
           - New products
           - promotions for new customers suggestion such as if your suggest your friends to be our members, you will receive discount.
-      cluster3  (Muggle):  High total spending, High Rencency, customers don't often visited.
+      Cluster3  (Muggle):  High total spending, High Rencency, customers don't often visited.
       recommend :
           - upsell 
           - voucher for buying more than average spending per month.
