@@ -19,5 +19,8 @@ Questionnaire by Google form have a yes or no question aboout 25 items that stud
   ###  Association Rules (filtered by Support > 0.5 and Lift > 1.05)
        - used apriori to found frequent itemsets by 0.35 min_support threshold.
        - made rule by life > 1.02 and confident > 0.6
-       
+   
+   ![alt tag](https://github.com/PBussara/BADS7105/blob/main/03%20Product%20Recommendation/First_rule_graph.png)
+   
+   ![alt tag](https://github.com/PBussara/BADS7105/blob/main/03%20Product%20Recommendation/Similarity_graph.png)
   
