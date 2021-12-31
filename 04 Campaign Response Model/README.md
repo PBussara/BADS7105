@@ -27,7 +27,7 @@
    
    ![alt tag](https://github.com/PBussara/BADS7105/blob/main/04%20Campaign%20Response%20Model/results_campaign_respone_model.jpg)
    
-   finally we selected XGboost model that trained on oversampling dataset for tuning parameter.
+   Finally we selected XGboost model that trained on oversampling dataset for tuning parameter.
    We try to fine tuning parameter but AUC score isn't increase.
      
 
