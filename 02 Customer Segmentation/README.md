@@ -1,5 +1,5 @@
 # Customers Segmentation
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1JBp6prBkEHkuhLXy3evg5pcJvHFXW6bt#scrollTo=S0MqcsQoLWZ3)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1JBp6prBkEHkuhLXy3evg5pcJvHFXW6bt?usp=sharing)
  ## Dataset 
  Supermarket data 
  
