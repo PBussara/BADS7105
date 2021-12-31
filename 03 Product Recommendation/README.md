@@ -11,7 +11,7 @@ Questionnaire by Google form have a yes or no question aboout 25 items that stud
         ตั๋วเครื่องบินไปญี่ปุ่น, Ebook, ตู้เย็น, กล้องฟิล์ม, เครื่องดนตรี, whey protein, วัตถุมงคล, กระบองเพชรพูดได้,ROV Skin
         
  # Data preparing
-    - changeg 'เคย ไม่เคย ซื้อ ไม่ซื้อ' to 1 or 2
+    - changeg 'เคย ไม่เคย ซื้อ ไม่ซื้อ' to binary class (0 or 1)
     - check null value and remove it.
     
   # Recommedation  
