@@ -17,6 +17,7 @@
    Feature Engineering by RFM model and CLV
    
      - 6 features that include Response, Recency, Frequency,Monetary, AOU and Ticket size,were generated.
+     - Created two dataste, First dataset has only RFM features.  Second dataset add AOU and Ticket size. 
      - Splited data to train and test data
      - By Response Feature we found that have imbalance. Thus we fix imbalanced only train data with SMOTE.
    
