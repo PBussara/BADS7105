@@ -25,7 +25,7 @@
     - We compared between logistic regression and XGBoost on dataset that was fix imbalance 
       by oversampling undersampling and SMOTE.
    
-   ![alt tag](https://github.com/PBussara/BADS7105/blob/main/01%20CLV%20Dashboard/Dashboard1.jpg)
+   ![alt tag](https://github.com/PBussara/BADS7105/blob/main/04%20Campaign%20Response%20Model/results_campaign_respone_model.jpg)
    
    finally we selected XGboost model that trained on oversampling dataset for tuning parameter.
    We try to fine tuning parameter but AUC score isn't increase.
