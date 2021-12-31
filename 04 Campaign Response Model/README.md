@@ -4,7 +4,7 @@
  
  
       - find the best model.
-      - Optimize the model by AUC 
+      - Optimize the model
 
 
 ## Dataset
