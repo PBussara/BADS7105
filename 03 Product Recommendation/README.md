@@ -1,6 +1,6 @@
 # Product Recommendation
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/16h4FQPLm9m4JNyZredtDc9-TBRdmFdyn?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1VcfsXE3Oc9hGrVnVZo4pfTqjl2CMhOMy?usp=sharing)
 
 # Dataset
 Questionnaire by Google form have a yes or no question aboout 25 items that students in class have ever or nerver bought or used.
@@ -16,11 +16,18 @@ Questionnaire by Google form have a yes or no question aboout 25 items that stud
     
   # Recommedation  
   
-  ###  Association Rules (filtered by Support > 0.5 and Lift > 1.05)
-       - used apriori to found frequent itemsets by 0.35 min_support threshold.
+  ###  Association Rules 
+       - used apriori to found frequent itemsets by 0.1 of  min_support threshold.
        - made rule by life > 1.02 and confident > 0.6
    
    ![alt tag](https://github.com/PBussara/BADS7105/blob/main/03%20Product%20Recommendation/First_rule_graph.png)
    
+  ### Collaborative filtering
+        - Found similarity between pair - frequent itemsets by cosin similarity
+        - filter pair frequent itemsets at cosin similarity > 0.5
+   
    ![alt tag](https://github.com/PBussara/BADS7105/blob/main/03%20Product%20Recommendation/Similarity_graph.png)
   
+   ### Result and analysis
+         - the customers who bougth film camera have  high possibility to buy whey protein or nintendo switch.
+           They have healthy lifestyle, hi-tech and artistic sensibilities. We offer them by  discount coupon of bluetooth headphone. 
